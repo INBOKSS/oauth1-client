@@ -81,7 +81,7 @@ class Twitter extends Server
      */
     public function urlUserDetails()
     {
-        return 'https://api.twitter.com/1.1/account/verify_credentials.json?include_email=true';
+        return 'https://api.twitter.com/2/account/verify_credentials?include_email=true';
     }
 
     /**
